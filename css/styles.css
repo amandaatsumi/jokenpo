@@ -11,13 +11,13 @@ body {
 }
 
 h2 {
-    margin: 1% 0;
+    margin: 2%;
     color: #789395;
 }
 
 @media only screen and (max-width: 600px) {
     .refresh {
-        margin: 1%;
+        margin: 2%;
         color: #BB6464;
         font-size: 2rem;
         font-family: 'Bree Serif', serif;
@@ -27,7 +27,7 @@ h2 {
 button {
     border-radius: 20%;
     height: 8rem;
-    width: 10%;
+    width: 15%;
     font-size: 3rem;
     border-color: #BB6464;
     background-color: #BB6464;
@@ -55,7 +55,7 @@ button {
 @media only screen and (max-width: 600px) {
     .players {
         display: inline-block;
-        margin: 1%;
+        margin: 3%;
         font-family: 'Delius', cursive;
         color: #789395;
         font-size: 1rem;
