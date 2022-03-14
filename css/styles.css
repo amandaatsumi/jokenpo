@@ -37,12 +37,17 @@ button {
     button {
         border-radius: 20%;
         height: 3rem;
-        width: 15%;
+        width: 25%;
         font-size: 1rem;
         border-color: #BB6464;
         background-color: #BB6464;
         margin: 1% 0;
+        text-align: center;
     }
+}
+
+a {
+    text-decoration: none;
 }
 
 .players {
