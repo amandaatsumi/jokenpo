@@ -4,7 +4,7 @@ body {
 }
 
 .refresh {
-    margin: 3% 5%;
+    margin: 3%;
     color: #BB6464;
     font-size: 5rem;
     font-family: 'Bree Serif', serif;
@@ -37,10 +37,11 @@ button {
     button {
         border-radius: 20%;
         height: 3rem;
-        width: 10%;
+        width: 15%;
         font-size: 1rem;
         border-color: #BB6464;
         background-color: #BB6464;
+        margin: 1% 0;
     }
 }
 
@@ -49,7 +50,7 @@ button {
     margin: 0 10% 5%;
     font-family: 'Delius', cursive;
     color: #789395;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -58,7 +59,7 @@ button {
         margin: 3%;
         font-family: 'Delius', cursive;
         color: #789395;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
