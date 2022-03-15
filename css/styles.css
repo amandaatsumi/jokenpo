@@ -23,21 +23,6 @@ h2 {
     color: #789395;
 }
 
-@media only screen and (max-width: 600px) {
-    .refresh {
-        margin: 2%;
-        color: #BB6464;
-        font-size: 1.7rem;
-        font-family: 'Bree Serif', serif;
-    }
-
-    .title {
-        margin: 2%;
-        color: #789395;
-        font-size: 2rem;
-        font-family: 'Bree Serif', serif;
-    }
-}
 
 button {
     border-radius: 20%;
@@ -46,19 +31,6 @@ button {
     font-size: 3rem;
     border-color: #BB6464;
     background-color: #BB6464;
-}
-
-@media only screen and (max-width: 600px) {
-    button {
-        border-radius: 20%;
-        height: 3rem;
-        width: 25%;
-        font-size: 1rem;
-        border-color: #BB6464;
-        background-color: #BB6464;
-        margin: 1% 0;
-        text-align: center;
-    }
 }
 
 a {
@@ -74,16 +46,6 @@ a {
     font-size: 1.7rem;
 }
 
-@media only screen and (max-width: 600px) {
-    .players {
-        display: inline-block;
-        margin: 3%;
-        font-family: 'Delius', cursive;
-        color: #789395;
-        font-size: 0.8rem;
-    }
-}
-
 img {
     border-radius: 5%;
     color: #D9CE3F;
@@ -91,16 +53,55 @@ img {
     height: 150px;
 }
 
+p {
+    color: #BB6464;
+    font-family: 'Delius', cursive;
+}
+
 @media only screen and (max-width: 600px) {
+    .refresh {
+        margin: 2%;
+        color: #BB6464;
+        font-size: 1.7rem;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .title {
+        margin: 2%;
+        color: #789395;
+        font-size: 2rem;
+        font-family: 'Bree Serif', serif;
+    }
+
+    button {
+        border-radius: 20%;
+        height: 3rem;
+        width: 25%;
+        font-size: 1rem;
+        border-color: #BB6464;
+        background-color: #BB6464;
+        margin: 1% 0;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: #789395;
+    }
+
+    .players {
+        display: inline-block;
+        margin: 3%;
+        font-family: 'Delius', cursive;
+        color: #789395;
+        font-size: 0.8rem;
+    }
+
     img {
         border-radius: 5%;
         color: #D9CE3F;
         width: 100px;
         height: 100px;
     }
-}
 
-p {
-    color: #BB6464;
-    font-family: 'Delius', cursive;
 }
