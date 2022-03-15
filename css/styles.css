@@ -3,11 +3,19 @@ body {
     background-color: #C3DBD9;
 }
 
+.title {
+    margin: 2%;
+    color: #789395;
+    font-size: 4rem;
+    font-family: 'Bree Serif', serif;
+}
+
 .refresh {
     margin: 3%;
     color: #BB6464;
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-family: 'Bree Serif', serif;
+    visibility: "hidden";
 }
 
 h2 {
@@ -19,6 +27,13 @@ h2 {
     .refresh {
         margin: 2%;
         color: #BB6464;
+        font-size: 1.7rem;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .title {
+        margin: 2%;
+        color: #789395;
         font-size: 2rem;
         font-family: 'Bree Serif', serif;
     }
@@ -53,7 +68,7 @@ a {
 
 .players {
     display: inline-block;
-    margin: 0 10% 5%;
+    margin: 0 8% 5%;
     font-family: 'Delius', cursive;
     color: #789395;
     font-size: 1.7rem;
